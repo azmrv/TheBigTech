@@ -1,0 +1,11 @@
+recipes.remove(<compactstorage:chestBuilder>);
+recipes.addShaped(<compactstorage:chestBuilder>, [
+	[<ore:plateSteel>, <gregtech:gt.metaitem.01:32652>, <ore:plateSteel>],
+	[<gregtech:gt.metaitem.01:32632>, <gregtech:gt.blockmachines:12>, <gregtech:gt.metaitem.01:32632>],
+	[<ore:plateSteel>, <gregtech:gt.metaitem.01:32642>, <ore:plateSteel>]]);
+	
+recipes.remove(<OpenBlocks:generic:5>);
+recipes.addShaped(<OpenBlocks:generic:5>, [
+	[<ore:string>, <ore:string>, <ore:string>],
+	[<IC2:itemHarz>, <IC2:itemHarz>, <IC2:itemHarz>],
+	[<ore:string>, <ore:string>, <ore:string>]]);
