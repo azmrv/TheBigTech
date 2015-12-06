@@ -11,4 +11,5 @@ Neoindustrial Minecraft Russian Edition
 Подробное описание модов:
 https://docs.google.com/spreadsheets/d/1EVccB1Bgabcj4oyKGQoX0NXut0UVTJGLuYDQhOXxUJM/edit#gid=0&vpid=A1
 
-
+Группа VK
+https://vk.com/club108532377
