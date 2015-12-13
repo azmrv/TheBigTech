@@ -7,6 +7,7 @@ Neoindustrial Minecraft Russian Edition
 Очень бы хотелось делать акцент не просто на индустриалке, в ней нет особой сложности или какой инвариантности, а делать упор на компьютеры, программирование. 
 Сложно представить современное производство без компьютеров или роботов. 
 
+Скачать MultiMC http://multimc.org/#Download%20&%20Install
 
 Подробное описание модов:
 https://docs.google.com/spreadsheets/d/1EVccB1Bgabcj4oyKGQoX0NXut0UVTJGLuYDQhOXxUJM/edit#gid=0&vpid=A1
