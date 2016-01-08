@@ -219,6 +219,7 @@ var WirelessTerminal = <appliedenergistics2:item.ToolWirelessTerminal>;
 
 // --- Inscriber ---
 recipes.remove(inscriber);
+recipes.remove(<appliedenergistics2:tile.BlockInscriber>);
 
 // --- Fluix Block
 recipes.remove(FluixBlock);
@@ -246,6 +247,7 @@ recipes.remove(MEDrive);
 
 // --- Crystal Growth Accelerator
 recipes.remove(CrystalAccelerator);
+NEI.hide(CrystalAccelerator);
 
 // --- Crafting Unit
 recipes.remove(CraftingUnit);
@@ -258,6 +260,7 @@ recipes.remove(MolecularAssembler);
 
 // --- Charger
 recipes.remove(Charger);
+NEI.hide(Charger);
 
 // --- ME Quantum Ring
 recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
@@ -506,10 +509,10 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:34>);
 // --- Blocks ---
 
 // --- Inscriber
-recipes.addShaped(inscriber, [
-[plateSteel, pistonSticky, plateSteel],
-[PureFluixCrystal, null, plateSteel],
-[plateSteel, pistonSticky, plateSteel]]);
+//recipes.addShaped(inscriber, [
+//[plateSteel, pistonSticky, plateSteel],
+//[PureFluixCrystal, null, plateSteel],
+//[plateSteel, pistonSticky, plateSteel]]);
 
 // --- ME Controller
 recipes.addShaped(MEController, [

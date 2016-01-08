@@ -166,37 +166,33 @@ recipes.addShaped(obsidianReinforced*4, [
 	[ingotDarkSteel, barsDarkSteel, ingotDarkSteel],
 	[barsDarkSteel, obsidian, barsDarkSteel],
 	[ingotDarkSteel, barsDarkSteel, ingotDarkSteel]]);
-//recipes.remove(killerJoe);
+recipes.remove(killerJoe);
 recipes.addShaped(killerJoe, [
 	[ingotDarkSteel, ingotDarkSteel, ingotDarkSteel],
 	[fusedQuartz, frankenSkull2, fusedQuartz],
 	[fusedQuartz, fusedQuartz, fusedQuartz]]);
-//recipes.remove(enchanter);
+recipes.remove(enchanter);
 recipes.addShaped(enchanter, [
 	[diamond, book, diamond],
 	[ingotDarkSteel, ingotDarkSteel, ingotDarkSteel],
 	[null, ingotDarkSteel, null]]);
-//recipes.remove(gliderWing);
+recipes.remove(gliderWing);
 recipes.addShaped(gliderWing, [
 	[null, null, ingotDarkSteel],
 	[null, ingotDarkSteel, leather],
 	[ingotDarkSteel, leather, leather]]);
-//recipes.remove(gliderWings);
+recipes.remove(gliderWings);
 recipes.addShaped(gliderWings, [
 	[null, ingotDarkSteel, null],
 	[gliderWing, ingotDarkSteel, gliderWing]]);
-//recipes.remove(travelStaff);
-recipes.addShaped(travelStaff, [
-	[null, null, crystalEnder],
-	[null, ingotDarkSteel, null],
-	[ingotDarkSteel, null, null]]);
-//recipes.remove(barsDarkSteel);
+
+recipes.remove(barsDarkSteel);
 recipes.addShaped(barsDarkSteel * 8, [	
 	[null, wrench, null],
 	[rodDarkSteel, rodDarkSteel, rodDarkSteel],
 	[rodDarkSteel, rodDarkSteel, rodDarkSteel]]);
 Assembler.addRecipe(barsDarkSteel, itemRodDarkSteel * 3, integratedCircuit3 * 0, 300, 4);
-//recipes.remove(pressurePlateDarkSteel);
+recipes.remove(pressurePlateDarkSteel);
 recipes.addShaped(pressurePlateDarkSteel, [
 	[plateDarkSteel, plateDarkSteel, HHammer]]);
 
@@ -205,18 +201,18 @@ recipes.addShaped(pressurePlateDarkSteel, [
 ChemicalReactor.addRecipe(itemDustEnderium, null, itemDustEnderPearl, null, moltenEnderiumBase * 144, 200);
 ChemicalReactor.addRecipe(null, moltenEnderiumBase * 576, itemDustSilver, itemDustPlatinum, moltenTin * 288, 100);
 //Autoclave.addRecipe(output, input, liquid, chance, durationTicks, euPerTick);
-//recipes.remove(crystalVibrant);
+recipes.remove(crystalVibrant);
 Autoclave.addRecipe(crystalVibrant, itemDustEmerald, moltenVibrantAlloy * 128, 10000, 1000, 24);
-//recipes.remove(crystalPulsating);
+recipes.remove(crystalPulsating);
 Autoclave.addRecipe(crystalPulsating, itemDustDiamond, moltenPulsatingIron * 128, 10000, 1000, 24);
 //Assembler.addRecipe(output, input1, input2, liquid, durationTicks, euPerTick);
-//recipes.remove(capacitorBasic);
-Assembler.addRecipe(capacitorBasic, batteryHullSmall, itemIngotGold * 4, moltenRedstone * 288, 64, 8);
-//recipes.remove(capacitorDualLayer);
+recipes.remove(capacitorBasic);
+Assembler.addRecipe(capacitorBasic, batteryHullSmall, <gregtech:gt.metaitem.01:29086> * 10, moltenRedstone * 288, 64, 8);
+recipes.remove(capacitorDualLayer);
 Assembler.addRecipe(capacitorDualLayer, capacitorBasic * 2, crystalPulsating, moltenEnergeticAlloy * 864, 50, 40);
 Assembler.addRecipe(capacitorDualLayer, capacitorBasic * 2, crystalPulsating, moltenEnergeticAlloy * 864, 50, 40);
 Assembler.addRecipe(capacitorDualLayer, capacitorBasic * 2, crystalPulsating, moltenEnergeticAlloy * 864, 50, 40);
-//recipes.remove(capacitorOctadic);
+recipes.remove(capacitorOctadic);
 Assembler.addRecipe(capacitorOctadic, capacitorDualLayer * 2, crystalVibrant, moltenVibrantAlloy * 864, 50, 40);
 //AlloySmelter.addRecipe(output, input1, input2, durationTicks, euPerTick);
 AlloySmelter.addRecipe(ingotEnergeticAlloy, itemIngotGold, blazePowder, 100, 16);
@@ -234,60 +230,44 @@ ChemicalBath.addRecipe([clearGlass], glass, moltenChlorine * 50, [10000], 400, 2
 # Oredictionary
 itemSilicon.remove(EISilicon);
 
+
+
+
 # Item/block removal
 recipes.remove(gearBasic);
 gearStone.remove(gearBasic);
-//NEI.hide(gearBasic);
-//recipes.remove(alloySmelter);
-//NEI.hide(alloySmelter);
+NEI.hide(gearBasic);
+recipes.remove(alloySmelter);
+NEI.hide(alloySmelter);
 
 # Recipe Tweaks
-//recipes.remove(probeConduit);
+recipes.remove(probeConduit);
 recipes.addShaped(probeConduit, [
 	[ingotSteel, conduitEnergy, ingotSteel],
 	[glassPane, comparator, glassPane],
 	[plateSilicon, conduitRedstoneInsulated, plateSilicon]]);
-//recipes.remove(itemBuffer);
+recipes.remove(itemBuffer);
 recipes.addShaped(itemBuffer, [
 	[itemIngotIron, ingotSteel, itemIngotIron],
 	[ingotSteel, chest, ingotSteel],
 	[itemIngotIron, ingotSteel, itemIngotIron]]);
-//recipes.remove(paintingMachine);
+recipes.remove(paintingMachine);
 recipes.addShaped(paintingMachine, [
 	[netherQuartz, netherQuartz, netherQuartz],
 	[plateSteel, diamond, plateSteel],
 	[plateSteel, machineChassis, plateSteel]]);
-//recipes.remove(wrenchYeta);
+recipes.remove(wrenchYeta);
 recipes.addShaped(wrenchYeta, [
     [ingotPulsatingIron, null, ingotPulsatingIron],
     [null, BCWrench, null],
     [null, ingotPulsatingIron, null]]);
-//recipes.remove(conduitFluidEnder);
-recipes.addShaped(conduitFluidEnder * 6, [
-    [pipeMediumElectrum, nuggetEnderium, pipeMediumElectrum],
-    [pipeMediumElectrum, fusedQuartz, pipeMediumElectrum],
-    [pipeMediumElectrum, nuggetEnderium, pipeMediumElectrum]]);
-//recipes.remove(conduitFluidPressurized);
-recipes.addShaped(conduitFluidPressurized * 6, [
-    [pipeSmallSteel, nuggetVibrantAlloy, pipeSmallSteel],
-    [pipeSmallSteel, fusedQuartz, pipeSmallSteel],
-    [pipeSmallSteel, nuggetVibrantAlloy, pipeSmallSteel]]);
-//recipes.remove(conduitFluid);
-recipes.addShaped(conduitFluid * 6, [
-    [pipeSmallBronze, dustGlass, pipeSmallBronze],
-    [pipeSmallBronze, dustGlass, pipeSmallBronze],
-    [pipeSmallBronze, dustGlass, pipeSmallBronze]]);
-//recipes.remove(travelAnchor);
+
+recipes.remove(travelAnchor);
 recipes.addShaped(travelAnchor, [
 	[ingotElectricalSteel, conduitBinder, ingotElectricalSteel],
 	[conduitBinder, pulsatingCrystal, conduitBinder],
 	[ingotElectricalSteel, conduitBinder, ingotElectricalSteel]]);
-//recipes.remove(dimTransceiver);
-recipes.addShaped(dimTransceiver, [
-	[ingotDarkSteel, resonatorEnder, ingotDarkSteel],
-	[capacitorBank, crystalEnder, pumpElectricMV],
-	[ingotDarkSteel, capacitorOctadic, ingotDarkSteel]]);
-recipes.addShapeless(dimTransceiver, [dimTransceiverOld]);
+
 recipes.remove(tankFluidPressurized);
 recipes.addShaped(tankFluidPressurized, [
     [ingotDarkSteel, barsDarkSteel, ingotDarkSteel],
@@ -298,44 +278,40 @@ recipes.addShaped(tankFluid, [
     [plateIron, barsIron, plateIron],
     [barsIron, fusedQuartz, barsIron],
     [plateIron, barsIron, plateIron]]);
-//recipes.remove(sagMill);
+recipes.remove(sagMill);
 recipes.addShaped(sagMill, [
     [ingotElectricalSteel, craftingGrinder, ingotElectricalSteel],
     [flint, machineChassis, flint],
     [pistonMV, capacitorDualLayer, motorMV]]);
-//recipes.remove(generatorCombustion);
+recipes.remove(generatorCombustion);
 recipes.addShaped(generatorCombustion, [
     [ingotElectricalSteel, ingotElectricalSteel, ingotElectricalSteel],
     [tankFluid, machineChassis, tankFluid],
     [gearIron, piston, gearIron]]);
-//recipes.remove(generatorStirling);
+recipes.remove(generatorStirling);
 recipes.addShaped(generatorStirling, [
     [stoneBricks, stoneBricks, stoneBricks],
     [stoneBricks, craftingFurnace, stoneBricks],
     [gearStone, machineChassis, gearStone]]);
-//recipes.remove(conduitInsulatedRedstone);
+recipes.remove(conduitInsulatedRedstone);
 recipes.addShaped(conduitInsulatedRedstone * 6, [
     [conduitBinder, conduitBinder, conduitBinder],
     [ingotRedAlloy, ingotRedAlloy, ingotRedAlloy],
     [conduitBinder, conduitBinder, conduitBinder]]);
-//recipes.remove(conduitRedstone);
+recipes.remove(conduitRedstone);
 recipes.addShaped(conduitRedstone * 6, [
     [ingotRedAlloy, ingotRedAlloy, ingotRedAlloy]]);
 recipes.remove(binderComposite);
 furnace.remove(conduitBinder);
 FluidSolidifier.addRecipe(conduitBinder, moldBall * 0, moltenConcrete * 36, 128, 4);
-//recipes.remove(conduitItem);
-recipes.addShaped(conduitItem * 6, [
-    [pipeMediumElectrum, conduitBinder, pipeMediumElectrum],
-    [pipeMediumElectrum, nuggetPulsatingIron, pipeMediumElectrum],
-    [pipeMediumElectrum, conduitBinder, pipeMediumElectrum]]);
+
 FluidExtractor.addRecipe(null, binderComposite, moltenConcrete * 36, 10000, 24, 24);
-//recipes.remove(MEConduit);
+recipes.remove(MEConduit);
 recipes.addShaped(MEConduit * 6, [
     [conduitBinder, conduitBinder, conduitBinder],
     [MECable, MECable, MECable],
     [conduitBinder, conduitBinder, conduitBinder]]);
-//recipes.remove(MEConduitDense);
+recipes.remove(MEConduitDense);
 recipes.addShaped(MEConduitDense * 6, [
     [conduitBinder, conduitBinder, conduitBinder],
     [MECableDense, MECableDense, MECableDense],

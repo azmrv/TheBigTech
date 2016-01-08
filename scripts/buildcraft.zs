@@ -8,11 +8,11 @@ import mods.gregtech.Lathe;
 
 # Aliases
 var barsIron = <minecraft:iron_bars>;
-var BCGearDiamond = <BuildCraft|Core:diamondGearItem>;
-var BCGearGold = <BuildCraft|Core:goldGearItem>;
-var BCGearIron = <BuildCraft|Core:ironGearItem>;
-var BCGearStone = <BuildCraft|Core:stoneGearItem>;
-var BCGearWood = <BuildCraft|Core:woodenGearItem>;
+//var BCGearDiamond = <BuildCraft|Core:diamondGearItem>;
+//var BCGearGold = <BuildCraft|Core:goldGearItem>;
+//var BCGearIron = <BuildCraft|Core:ironGearItem>;
+//var BCGearStone = <BuildCraft|Core:stoneGearItem>;
+//var BCGearWood = <BuildCraft|Core:woodenGearItem>;
 var bcPump = <BuildCraft|Factory:pumpBlock>;
 var BCRefinery = <BuildCraft|Factory:refineryBlock>;
 var bcTank = <BuildCraft|Factory:tankBlock>;
@@ -115,18 +115,18 @@ var stoneCobble = <ore:stoneCobble>;
 var wrench = <ore:craftingToolWrench>;
 
 # Items/Blocks Removal
-recipes.remove(BCRefinery);
+//recipes.remove(BCRefinery);
 NEI.hide(BCRefinery);
-recipes.remove(BCGearWood);
-NEI.hide(BCGearWood);
-recipes.remove(BCGearStone);
-NEI.hide(BCGearStone);
-recipes.remove(BCGearIron);
-NEI.hide(BCGearIron);
-recipes.remove(BCGearGold);
-NEI.hide(BCGearGold);
-recipes.remove(BCGearDiamond);
-NEI.hide(BCGearDiamond);
+//recipes.remove(BCGearWood);
+//NEI.hide(BCGearWood);
+//recipes.remove(BCGearStone);
+//NEI.hide(BCGearStone);
+//recipes.remove(BCGearIron);
+//NEI.hide(BCGearIron);
+//recipes.remove(BCGearGold);
+//NEI.hide(BCGearGold);
+//recipes.remove(BCGearDiamond);
+//NEI.hide(BCGearDiamond);
 // rmove void pips its error render engine
 //recipes.remove(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>);
 //NEI.hide(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>);
@@ -166,7 +166,7 @@ recipes.addShaped(bcPump, [
 	[bcTank, bucket, bcTank]]);
 
 # Specials
-//recipes.remove(quarry);
+recipes.remove(quarry);
 //quarry.addTooltip(format.red(format.bold("WARNING! One time use only. Upgrade to Ender Quarry!")));
 
 # GT Integration

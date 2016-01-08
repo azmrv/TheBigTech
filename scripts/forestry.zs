@@ -3,8 +3,8 @@
 
 import mods.gregtech.Assembler;
 import mods.gregtech.Mixer;
-//import mods.forestry.Carpenter;
-//import mods.forestry.ThermionicFabricator;
+import mods.forestry.Carpenter;
+import mods.forestry.ThermionicFabricator;
 import mods.nei.NEI;
 
 # Aliases
@@ -268,7 +268,7 @@ Assembler.addRecipe(<Forestry:sturdyMachine>, <gregtech:gt.blockcasings:1>, <gre
 //mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, [<gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:29305>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19305>, <gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.01:27305>, <gregtech:gt.metaitem.01:29305>, <gregtech:gt.metaitem.01:27305>],<gregtech:gt.metaitem.01:32711>, <Forestry:chipsets:2>);
 //mods.forestry.Carpenter.removeRecipe(<Forestry:chipsets:3>);
 //mods.forestry.Carpenter.addRecipe(400, <liquid:molten.redstone> * 1152, [<gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:29303>, <gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.02:19303>, <gregtech:gt.metaitem.01:32715>, <gregtech:gt.metaitem.01:27303>, <gregtech:gt.metaitem.01:29303>, <gregtech:gt.metaitem.01:27303>],<gregtech:gt.metaitem.01:32711>, <Forestry:chipsets:3>);
-//ThermionicFabricator.removeCasts(tubeCopper);
+//ThermionicFabricator.removeCast(tubeCopper);
 //ThermionicFabricator.removeCasts(tubeTin);
 //ThermionicFabricator.removeCasts(tubeBronze);
 //ThermionicFabricator.removeCasts(tubeIron);

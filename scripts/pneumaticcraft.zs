@@ -3,6 +3,7 @@
 import mods.gregtech.Assembler;
 //import mods.forestry.ThermionicFabricator;
 import mods.nei.NEI;
+import mods.ic2.SemiFluidGenerator;
 
 # Aliases
 var aerialInterface = <PneumaticCraft:aerialInterface>;
@@ -90,6 +91,9 @@ Assembler.addRecipe(<PneumaticCraft:transistor>, <OpenComputers:item:23>, <Pneum
 //[null, null, null],
 //[null, null, null]]);
 
+// add LPG from pneumatic craft not working
+//mods.gregtech.Fuels.addDieselFuel(<minecraft:bucket>, <PneumaticCraft:lpgBucket>, 1000);
+SemiFluidGenerator.addFluid(<liquid:lpg> * 100, 128);
 
 
 # Recipes Tweaks
@@ -111,7 +115,7 @@ recipes.addShaped(gearCompressedIron, [
 recipes.remove(aerialInterface);
 recipes.addShaped(aerialInterface, [
     [pressureChamberPart, beamCore, pressureChamberPart],
-    [sensorMV, enderResonator, emitterMV],
+    [sensorMV, <EnderIO:itemFrankenSkull:4>, emitterMV],
     [pressureChamberPart, tubePressureAdv, pressureChamberPart]]);
 recipes.removeShaped(drone);
 recipes.addShaped(drone, [

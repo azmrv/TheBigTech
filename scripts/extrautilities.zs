@@ -4,7 +4,7 @@ import mods.gregtech.ChemicalBath;
 import mods.ic2.Compressor;
 import mods.gregtech.Packer;
 import mods.gregtech.Unpacker;
-//import mods.extraUtils.QED;
+import mods.extraUtils.QED;
 
 # Aliases
 var BCQuarry = <BuildCraft|Builders:machineBlock>;

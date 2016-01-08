@@ -19,7 +19,7 @@ val redwire = <ProjRed|Transmission:projectred.transmission.wire:0>;
 
 // Remove Red Iron Compound
 recipes.remove(redcomp);
-furnace.remove(<ProjRed|Core:projectred.core.part:10>,redcomp);
+//furnace.remove(<ProjRed|Core:projectred.core.part:10>,redcomp);
 //NEI.hide(redcomp);
 
 // Red Alloy wire

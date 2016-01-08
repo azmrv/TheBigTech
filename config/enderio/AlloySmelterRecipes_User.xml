@@ -26,5 +26,7 @@ ore dictionary.
 -->
 
 <AlloySmelterRecipes>
-
+  <recipeGroup name="EnderIO" enabled="false"/>
+  <recipeGroup name="Thermal Expansion" enabled="false"/>
+  <vanillaFurnaceRecipes enabled="false"/>
 </AlloySmelterRecipes>
