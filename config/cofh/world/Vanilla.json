@@ -3,11 +3,28 @@
         "template": "uniform",
         "block": "dirt",
         "material": "minecraft:stone",
-        "clusterSize": 32,
-        "numClusters": 20,
-        "minHeight": 0,
+        "clusterSize": 4,
+        "numClusters": 10,
+        "minHeight": 50,
         "maxHeight": 128,
         "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	 "clay": {
+        "template": "uniform",
+        "block": "clay",
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 32,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -20,9 +37,9 @@
         "template": "uniform",
         "block": "gravel",
         "material": "stone",
-        "clusterSize": 32,
+        "clusterSize": 8,
         "numClusters": 10,
-        "minHeight": 0,
+        "minHeight": 50,
         "maxHeight": 128,
         "retrogen": "false",
         "biomeRestriction": "none",
@@ -39,7 +56,7 @@
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 20,
-        "minHeight": 0,
+        "minHeight": 40,
         "maxHeight": 128,
         "retrogen": "true",
         "biomeRestriction": "none",
@@ -47,6 +64,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+			0,
             1
         ]
     },
@@ -55,7 +73,7 @@
         "block": "iron_ore",
         "material": "minecraft:stone",
         "clusterSize": 8,
-        "numClusters": 20,
+        "numClusters": 30,
         "minHeight": 0,
         "maxHeight": 64,
         "retrogen": "true",
@@ -64,6 +82,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+			0,
             1
         ]
     },
@@ -72,15 +91,16 @@
         "block": "gold_ore",
         "material": "minecraft:stone",
         "clusterSize": 8,
-        "numClusters": 2,
+        "numClusters": 16,
         "minHeight": 0,
-        "maxHeight": 32,
+        "maxHeight": 40,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+			0,
             1
         ]
     },
@@ -91,13 +111,14 @@
         "clusterSize": 7,
         "numClusters": 8,
         "minHeight": 0,
-        "maxHeight": 16,
+        "maxHeight": 40,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+			0,
             1
         ]
     },
@@ -108,13 +129,14 @@
         "clusterSize": 7,
         "numClusters": 1,
         "minHeight": 0,
-        "maxHeight": 16,
+        "maxHeight": 40,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+			0,
             1
         ]
     },
@@ -124,14 +146,17 @@
         "material": "minecraft:stone",
         "clusterSize": 6,
         "numClusters": 1,
+		"minHeight": 0,
+        "maxHeight": 40,
         "meanHeight": 16,
-        "maxVariance": 16,
+        "maxVariance": 4,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
+			0,
             1
         ]
     },
@@ -139,16 +164,19 @@
         "template": "uniform",
         "block": "quartz_ore",
         "material": "minecraft:netherrack",
-        "clusterSize": 13,
-        "numClusters": 16,
-        "minHeight": 10,
-        "maxHeight": 118,
-        "retrogen": "true",
+        "clusterSize": 0,
+        "numClusters": 0,
+        "minHeight": 0,
+        "maxHeight": 0,
+        "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "dictionary", "entry": "NETHER"}
         ],
         "dimensionRestriction": "none",
-        "dimensions": []
+        "dimensions": [
+            -1,
+			0,
+            1
     }
 }

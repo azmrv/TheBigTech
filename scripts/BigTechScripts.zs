@@ -62,6 +62,46 @@ recipes.remove(<ThermalFoundation:material:129>);
 recipes.addShapeless(<ThermalFoundation:material:129>, [<gregtech:gt.metaitem.02:31057>]);
 
 
+# Tinkers Construct 
+
+// Grout 
+recipes.remove(<TConstruct:CraftedSoil:1>);
+recipes.addShaped(<TConstruct:CraftedSoil:1>, [
+	[<minecraft:clay>, <minecraft:gravel>, <minecraft:sand>],
+	[<gregtech:gt.metaitem.01:2097>, <minecraft:soul_sand>, <IC2:itemDust:11>],
+	[<gregtech:gt.metaitem.01:2101>, <gregtech:gt.metaitem.01:2098>, <gregtech:gt.metaitem.01:2100>]]);
+
+//Alloy Smelter
+//OutputStack, InputStack1, InputStack2, Time in Ticks, EnergyUsage
+mods.gregtech.AlloySmelter.addRecipe(<TConstruct:materials:15>*2, <gregtech:gt.metaitem.01:11302>, <gregtech:gt.metaitem.01:11019>, 800, 30);
+mods.gregtech.AlloySmelter.addRecipe(<TConstruct:materials:3>*2, <gregtech:gt.metaitem.01:11033>, <gregtech:gt.metaitem.01:11316>, 3000, 128);
+mods.gregtech.AlloySmelter.addRecipe(<TConstruct:materials:4>*2, <gregtech:gt.metaitem.01:11081>, <gregtech:gt.metaitem.01:11301>, 3000, 128);
+mods.gregtech.AlloySmelter.addRecipe(<TConstruct:materials:5>*2, <TConstruct:materials:3>, <TConstruct:materials:4>, 8000, 512);
+mods.gregtech.AlloySmelter.addRecipe(<TConstruct:materials:14>*2, <gregtech:gt.metaitem.01:11035>, <gregtech:gt.metaitem.01:11019>, 3000, 128);
+
+
+# MineFactrory
+
+// Coneveers
+
+recipes.remove(<MineFactoryReloaded:conveyor:16>);
+recipes.addShapeless(<MineFactoryReloaded:conveyor:16>, [<gregtech:gt.metaitem.01:32630>]);
+
+recipes.remove(<MineFactoryReloaded:machine.0:2>);
+recipes.addShaped(<MineFactoryReloaded:machine.0:2>, [
+[<ore:sheetPlastic>, <minecraft:shears>, <ore:sheetPlastic>], 
+[<EnderIO:item.darkSteel_axe>, <IC2:blockMachine3:7>, <EnderIO:item.darkSteel_axe>], 
+[<ore:ingotGold>, <EnderIO:itemFrankenSkull:1>, <ore:ingotGold>]]);
+
+
+# EnderIO Farming station 
+
+recipes.remove(<EnderIO:blockFarmStation>);
+recipes.addShaped(<EnderIO:blockFarmStation>, [
+[<ore:ingotElectricalSteel>, <minecraft:diamond_hoe>, <ore:ingotElectricalSteel>],
+[<ore:ingotElectricalSteel>, <IC2:blockMachine3:7>, <ore:ingotElectricalSteel>],
+[<ore:itemPulsatingCrystal>, <EnderIO:itemFrankenSkull:1>, <ore:itemPulsatingCrystal>]]);
+
 
 
 # Thermal Expansion Machine frames from Greg usefull machine parts
@@ -257,13 +297,13 @@ mods.gregtech.ChemicalReactor.addRecipe(<EnderIO:itemMaterial:8>, null, <EnderIO
 
 
 recipes.remove(<EnderIO:itemLiquidConduit:2>);
-recipes.addShaped(<EnderIO:itemLiquidConduit:2>*16, [
+recipes.addShaped(<EnderIO:itemLiquidConduit:2>, [
     [<EnderIO:itemMaterial:1>, <EnderIO:itemAlloy:2>, <EnderIO:itemMaterial:1>],
     [<gregtech:gt.blockmachines:5152>, <gregtech:gt.metaitem.01:32613>, <gregtech:gt.blockmachines:5152>],
     [<EnderIO:itemMaterial:1>, <EnderIO:itemAlloy:2>, <EnderIO:itemMaterial:1>]]);
 	
 recipes.remove(<EnderIO:itemLiquidConduit:1>);
-recipes.addShaped(<EnderIO:itemLiquidConduit:1>*16, [
+recipes.addShaped(<EnderIO:itemLiquidConduit:1>, [
     [<EnderIO:itemMaterial:1>, <EnderIO:itemAlloy:1>, <EnderIO:itemMaterial:1>],
     [<gregtech:gt.blockmachines:5132>, <gregtech:gt.metaitem.01:32612>, <gregtech:gt.blockmachines:5132>],
     [<EnderIO:itemMaterial:1>, <EnderIO:itemAlloy:1>, <EnderIO:itemMaterial:1>]]);
@@ -271,13 +311,13 @@ recipes.addShaped(<EnderIO:itemLiquidConduit:1>*16, [
 recipes.remove(<EnderIO:itemItemConduit>);
 
 //hard 
-//recipes.addShaped(<EnderIO:itemItemConduit>*16, [
+//recipes.addShaped(<EnderIO:itemItemConduit>, [
 //    [<OpenComputers:item:96>, <gregtech:gt.metaitem.01:32671>, <OpenComputers:item:96>],
 //    [<appliedenergistics2:item.ItemMultiMaterial:48>, <gregtech:gt.blockmachines:5632>, <appliedenergistics2:item.ItemMultiMaterial:48>],
 //    [<OpenComputers:item:96>, <OpenComputers:item:26>, <OpenComputers:item:96>]]);
 	
 // easy
-recipes.addShaped(<EnderIO:itemItemConduit>*16, [
+recipes.addShaped(<EnderIO:itemItemConduit>, [
     [<EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>],
     [<minecraft:ender_eye>, <gregtech:gt.blockmachines:5603>, <minecraft:ender_eye>],
     [<EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>]]);
@@ -285,7 +325,7 @@ recipes.addShaped(<EnderIO:itemItemConduit>*16, [
 	
 
 recipes.remove(<EnderIO:itemLiquidConduit>);
-recipes.addShaped(<EnderIO:itemLiquidConduit>*16, [
+recipes.addShaped(<EnderIO:itemLiquidConduit>, [
     [<IC2:itemHarz>, <gregtech:gt.metaitem.01:2890>, <IC2:itemHarz>],
     [<gregtech:gt.blockmachines:5110>, <gregtech:gt.metaitem.01:32610>, <gregtech:gt.blockmachines:5110>],
     [<IC2:itemHarz>, <gregtech:gt.metaitem.01:2890>, <IC2:itemHarz>]]);	

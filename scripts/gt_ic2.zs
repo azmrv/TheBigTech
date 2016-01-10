@@ -183,20 +183,20 @@ var logWood30 = <IC2:blockRubWood>;
 var oxygen = <liquid:oxygen>;
 
 //ArcFurnace.addRecipe([output1, output2, output3, output4], input, liquid, [chance1, chance2, chance3, chance4], durationTicks, euPerTick);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood2, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood3, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood4, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood5, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood6, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood7, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood8, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood9, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood10, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood11, oxygen * 32, [10000,5000,1000,500], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood12, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood2, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood3, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood4, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood5, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood6, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood7, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood8, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood9, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood10, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood11, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood12, oxygen * 32, [10000,5000,1000,500], 200, 32);
 
 //ArcFurnace.addRecipe([charcoal], logWood29, oxygen * 32, [10000], 200, 32);
-ArcFurnace.addRecipe([charcoal*8,charcoal*2,charcoal,charcoal], logWood30, oxygen * 32, [10000,5000,1000,500], 200, 32);
+ArcFurnace.addRecipe([charcoal*2,charcoal,charcoal,charcoal], logWood30, oxygen * 32, [10000,5000,1000,500], 200, 32);
 
 
